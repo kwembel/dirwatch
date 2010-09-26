@@ -90,7 +90,7 @@ class DirectoryWatcher():
           else:
             print("%s" % f)
           # Management
-          self.files_stats[f] = current_stat           
+          self.files_stats[f] = current_stat
   
 def main():
   import optparse
